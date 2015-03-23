@@ -19,5 +19,3 @@ for i = 1:n_cars
     selected = (idxs == i);
     clustercost(i) = sum(edges(4,selected));
 end
-
-clustercost
