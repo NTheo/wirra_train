@@ -1,7 +1,3 @@
-vertices_first  = coords(:, edges(1,:)+1)';
-vertices_second = coords(:, edges(2,:)+1)';
-orientations    = edges(3, :);
-
 figure();
 scatter(coords(2,:),coords(1,:),'.','y')
 hold on;
