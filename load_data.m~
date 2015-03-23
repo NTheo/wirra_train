@@ -1,0 +1,6 @@
+f = fopen('paris_54000.txt');
+header = fscanf(f, '%d %d %d %d %d', [1 5]);
+n_vertice = header(1); n_street = header(2); T = header(3); n_car = header(4); v_0 = header(5);
+unav = fscanf(f, '%d %d', [2 U]);
+servers = fscanf(f, '%d %d', [2 M]);
+fclose(f);
